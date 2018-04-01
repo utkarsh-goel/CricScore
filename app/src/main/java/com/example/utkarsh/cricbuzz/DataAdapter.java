@@ -28,10 +28,8 @@ public class DataAdapter extends RecyclerView.Adapter<DataAdapter.ViewHolder> {
 
     @Override
     public void onBindViewHolder(DataAdapter.ViewHolder holder, int position) {
-
-                holder.team1_name.setText(matches.get(position).getTeam1());
-                holder.team2_name.setText(matches.get(position).getTeam2());
-
+                    holder.team1_name.setText(matches.get(matches.size()-position-1).getTeam1());
+                    holder.team2_name.setText(matches.get(matches.size()-position-1).getTeam2());
     }
 
     @Override

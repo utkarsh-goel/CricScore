@@ -39,7 +39,7 @@ public class Welcome extends AppCompatActivity {
     }
 
     private void loadJSON(){
-        String baseurl= "http://cricapi.com/api/matches/";
+        String baseurl= "http://cricapi.com";
 
         Retrofit retrofit = new Retrofit.Builder().baseUrl(baseurl).addConverterFactory(GsonConverterFactory.create()).build();
         RequestInterface requestInterface = retrofit.create(RequestInterface.class);

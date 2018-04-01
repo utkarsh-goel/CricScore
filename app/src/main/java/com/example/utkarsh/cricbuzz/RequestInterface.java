@@ -9,7 +9,7 @@ import retrofit2.http.GET;
 
 public interface RequestInterface {
 
-    @GET("HkiLHwuAWfXP5aLxrut8uSV3lbm2")
+    @GET("api/matches/HkiLHwuAWfXP5aLxrut8uSV3lbm2")
 
-Call<JSONResponse> getJSON();
+    Call<JSONResponse> getJSON();
 }

@@ -63,7 +63,7 @@
             <ImageView
                 android:layout_width="40dp"
                 android:layout_height="30dp"
-                android:src="@drawable/splash"
+                android:src="@drawable/splash1"
                 android:layout_marginLeft="5dp"
                 />
 
@@ -78,7 +78,6 @@
             <TextView
                 android:layout_width="60dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="40dp"
                 android:padding="2dp"
                 android:id="@+id/team1_score"
                 android:text="488"
@@ -94,7 +93,7 @@
                 android:layout_width="40dp"
                 android:layout_height="30dp"
                 android:layout_marginLeft="5dp"
-                android:src="@drawable/splash" />
+                android:src="@drawable/splash1" />
 
             <TextView
                 android:layout_width="140dp"
@@ -107,7 +106,6 @@
             <TextView
                 android:layout_width="60dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="40dp"
                 android:padding="5dp"
                 android:id="@+id/team2_score"
                 android:text="64-3" />
