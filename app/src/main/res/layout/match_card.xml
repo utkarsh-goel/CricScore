@@ -63,7 +63,7 @@
             <ImageView
                 android:layout_width="40dp"
                 android:layout_height="30dp"
-                android:src="@drawable/splash1"
+                android:src="@drawable/splash2"
                 android:layout_marginLeft="5dp"
                 />
 
@@ -93,7 +93,7 @@
                 android:layout_width="40dp"
                 android:layout_height="30dp"
                 android:layout_marginLeft="5dp"
-                android:src="@drawable/splash1" />
+                android:src="@drawable/splash2" />
 
             <TextView
                 android:layout_width="140dp"
